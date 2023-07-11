@@ -94,7 +94,7 @@ header {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     ;
-    padding: 90px 50px 40px 48px;
+    padding: 90px 30px 40px 38px;
 }
 
 .img-3 {
@@ -114,6 +114,31 @@ header {
 
 main section {
     margin-top: 130px;
+}
+/* bouquet */
+.bouquet-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.bouquet-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.bouquet-image{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.bouquet-img{
+    height: 350px;
+    width: 420px;
+    border: 1px solid black;
 }
 
 /* hot deal styles */
